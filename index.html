@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo practico 1 </title>
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+
+  </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+        <div class="container-lg">
+          <a class="navbar-brand" href="#">
+            <img src="media/codoacodo.png"class="d-inline-block align-text-center">
+           Conf Bs As             
+          </a>
+              <a class="navbar-brand collapse navbar- msauto" href="#" style="justify-content:end ;"><b>La conferencia </b></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"style="justify-content:end;">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="oradores">Los oradores</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">El lugar y la fecha </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Conviertete en orador</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled"><span style="color:green">comprar tickets</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Termina la barra de nav  -->
+  
+  <section class="imagengrande">
+       <div class="shadow">
+      <div class="container-flex">
+        <div class="content">
+          <h1>Conf Bs As</h1>
+          <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento 
+            y experiencia de los expertos que estan creand el futuro de Internet. Ven a conocer a miembros del evento,
+            a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos
+          </p>
+          <div class="buttonera">
+            <a class="btn btn-transparent" href="#"> Quiero ser orador</a>
+            <a class="btn btn-solid" href="#">Comprar Tickets</a>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+    <!-- Termina la imagengrande  -->
+
+  <section class="oradores" id="oradores">
+    <div class="titulo">
+      <h6> CONOCE A LOS </h6>
+      <h2>ORADORES</h2>
+    </div>
+    <div class="grid-container-oradores">
+         <div class="card">
+        <img src="./media/steve.jpg">
+        <div class="skills">
+          <h6 class="amarillo"> JavaScript</h6>
+          <h6 class="cyan">React</h6>
+        </div>
+        <h3>Steve Jobs</h3>
+        <p>Steven Paul Jobs ​​​​fue un empresario, diseñador industrial, magnate empresarial, propietario de medios e inversor estadounidense. Fue cofundador y presidente ejecutivo de Apple​ y máximo accionista individual de The Walt Disney Company​ </p>
+    </div>
+  
+   
+        <div class="card">
+          <img src="./media/bill.jpg">
+          <div class="skills">
+            <h6 class="amarillo"> JavaScript</h6>
+            <h6 class="cyan">React</h6>
+          </div>
+          <h3>Bill Gates</h3>
+          <p>William Henry Gates III, más conocido como Bill Gates, es un magnate empresarial, desarrollador de software, inversor, autor y filántropo estadounidense. Es cofundador de Microsoft, junto con su difunto amigo de la infancia Paul Allen.​ </p>
+        </div>
+    
+   
+          <div class="card">
+            <img src="./media/ada.jpeg">
+            <div class="skills">
+              <h6 class="gris"> JavaScript</h6>
+              <h6 class="magenta">React</h6>
+            </div>
+            <h3>Ada Lovelace</h3>
+            <p>Hija del famoso poeta Lord Byron, nació en 1815 y desafió las limitaciones que imponía la lógica victoriana para la mujer. Creó un algoritmo -inédito en ese entonces-pensado para ser procesado por una máquina. Así, sentó la bases de lo que sería la computación.​ </p>
+          
+          </div>
+    </div>
+
+
+  </section>
+
+
+</body>
+</html>
+
+ <!-- Termina oradores  -->
+
+ <section class="playa">
+  <div class="container-cta">
+    <img src="./media/honolulu.jpg">
+      <div class="cta-content">
+       <h2>Bs As - Octubre </h2>
+          <p>Buenos Aires es la provincia y localidad mas grande del estado de Argentina, en los Estados unidos.
+             Honolulu es la las surena de entre Ias principaies ciudades estadounidenses. Aunque de
+             Honolulu se refiere al area urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de
+            han forrado una ciudad-condado consolidada que cubre toda ia ciudad (aproxinadamente 600 km2 de superficie.</p>
+             <a href="a" class="btn btn-transparent">Conocé mas</a>
+       </div>
+   </div>
+ </section>
+
+  <!-- Termina playa  -->
+  <section class="form" id="form">
+    <div class="titulo">
+      <h6>Conviertete en un</h6>
+      <h2>Orador</h2>
+      <h3> Anotate como orador para dar una <span class="underline">charla ignite.</span> Cuentanos de que quieres hablar !</span></h3>
+    </div>
+       <div class="container-form">
+        <form action="">
+          <div class="nombre">
+            <input type="text" class="input-name" name="input-firstname" placeholder="Nombre" required>
+            <input type="text" class="input-name" name="input-lastname" placeholder="Apellido"  required>
+          </div>
+          <textarea class="input-about" name="input-about" id=""cols="30" rows="6"placeholder="Sobre que quieres hablar?"></textarea>
+          <h6>Recuerda incluir un titulo para tu charla</h6>
+          <input class="btn-submit" type="submit" value="Enviar">
+
+        </form>
+       </div>
+  </section>
+  
+  <!-- Termina el form  -->
+  <footer class="footer">
+    <div class="container-footer">
+      <a class="footer-item" href="#">Preguntas frecuentes</a>
+      <a class="footer-item" href="#">Contactanos</a>
+      <a class="footer-item"href="#">Prensa</a>
+      <a class="footer-item"href="#">Conferencias</a>
+      <a class="footer-item"href="#">Terminos y condiciones</a>
+      <a class="footer-item"href="#">Privacidad</a>
+      <a class="footer-item">Estudiantes</a>
+    </div>
+  </footer>
